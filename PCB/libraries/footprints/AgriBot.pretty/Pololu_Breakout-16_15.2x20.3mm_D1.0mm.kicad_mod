@@ -385,7 +385,7 @@
 		(uuid "fb017d39-3692-4950-b0b9-ac28748dc41a")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Module.3dshapes/Pololu_Breakout-16_15.2x20.3mm.step"
+	(model "${KIPRJMOD}/libraries/3dmodels/DRV8825_Carrier.step"
 		(offset
 			(xyz 0 0 0)
 		)
