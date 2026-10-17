@@ -1,6 +1,6 @@
-<img width="3000" height="1754" alt="pcb" src="https://github.com/user-attachments/assets/45e06537-4cd1-412f-9003-887d18eee7b0" /># AgriBot
-
-![AgriBot main board, front]<img width="3000" height="1754" alt="pcb-front" src="https://github.com/user-attachments/assets/e4562e0f-7def-4552-8095-435f0bfabae4" />
+# The AgriBot rover
+<img width="3000" height="1754" alt="pcb" src="https://github.com/user-attachments/assets/45e06537-4cd1-412f-9003-887d18eee7b0" />
+<img width="3000" height="1754" alt="pcb-front" src="https://github.com/user-attachments/assets/e4562e0f-7def-4552-8095-435f0bfabae4" />
 
 [![View PCB in KiCanvas](https://img.shields.io/badge/PCB-KiCanvas-blue)](https://kicanvas.org/?github=https://github.com/YOUR_USERNAME/AgriBot/tree/main/PCB)
 
@@ -31,27 +31,27 @@ The weirdest call on the board is that the SIM800L hangs off the Audio ESP32 and
 These are renders of the real board file. The boards aren't ordered yet so there are no photos.
 
 ### 3D model
-![3D model]<img width="781" height="497" alt="Screenshot 2026-10-17 233719" src="https://github.com/user-attachments/assets/126c31c9-84fc-4882-b394-3e70567d4c5c" /><img width="814" height="496" alt="Screenshot 2026-10-17 233806" src="https://github.com/user-attachments/assets/6db13a59-d79d-410f-be6b-22de05a30049" />
+<img width="781" height="497" alt="Screenshot 2026-10-17 233719" src="https://github.com/user-attachments/assets/126c31c9-84fc-4882-b394-3e70567d4c5c" /><img width="814" height="496" alt="Screenshot 2026-10-17 233806" src="https://github.com/user-attachments/assets/6db13a59-d79d-410f-be6b-22de05a30049" />
 
 
 ### PCB layout
 Red is top copper, blue is bottom. The big red areas are the 12 V pour and the bottom is almost all ground.
 
-![PCB layout]<img width="3000" height="1754" alt="pcb" src="https://github.com/user-attachments/assets/2422ddff-1aac-413b-be64-e2c952997d64" />
+<img width="3000" height="1754" alt="pcb" src="https://github.com/user-attachments/assets/2422ddff-1aac-413b-be64-e2c952997d64" />
 
 
 ### Back
-![Back of the board]<img width="3000" height="1754" alt="pcb-back" src="https://github.com/user-attachments/assets/1e3f08bf-dab7-440d-931b-d1f4dc0db458" />
+<img width="3000" height="1754" alt="pcb-back" src="https://github.com/user-attachments/assets/1e3f08bf-dab7-440d-931b-d1f4dc0db458" />
 
 
 ### The three ESP32s
 Motion, Sensors and Audio, left to right. Sensors is the only one with its WiFi on.
 
-![The three ESP32s]<img width="2400" height="1081" alt="three-esp32s" src="https://github.com/user-attachments/assets/cbd46966-cdac-4f38-b36c-172085087f1a" />
+<img width="2400" height="1081" alt="three-esp32s" src="https://github.com/user-attachments/assets/cbd46966-cdac-4f38-b36c-172085087f1a" />
 
 
 ### Schematic
-![Schematic]<img width="575" height="397" alt="Screenshot 2026-10-02 130911" src="https://github.com/user-attachments/assets/1dbabab4-0ffa-459a-90b1-e67ddb85e2f0" />
+<img width="575" height="397" alt="Screenshot 2026-10-02 130911" src="https://github.com/user-attachments/assets/1dbabab4-0ffa-459a-90b1-e67ddb85e2f0" />
 
 
 ## What's on the board
