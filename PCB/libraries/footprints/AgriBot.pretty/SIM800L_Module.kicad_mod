@@ -74,4 +74,9 @@
   (pad "9" thru_hole circle (at 21.7 10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask"))
   (pad "8" thru_hole circle (at 21.7 12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask"))
   (pad "7" thru_hole circle (at 21.7 15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask"))
+	(model "${KIPRJMOD}/libraries/3dmodels/SIM800L_Module.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )
