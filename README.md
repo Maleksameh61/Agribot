@@ -2,7 +2,7 @@
 <img width="3000" height="1754" alt="pcb" src="https://github.com/user-attachments/assets/45e06537-4cd1-412f-9003-887d18eee7b0" />
 <img width="3000" height="1754" alt="pcb-front" src="https://github.com/user-attachments/assets/e4562e0f-7def-4552-8095-435f0bfabae4" />
 
-[![View PCB in KiCanvas](https://img.shields.io/badge/PCB-KiCanvas-blue)](https://kicanvas.org/?github=https://github.com/YOUR_USERNAME/AgriBot/tree/main/PCB)
+[![View PCB in KiCanvas](https://img.shields.io/badge/PCB-KiCanvas-blue)](https://kicanvas.org/?github=https://github.com/Maleksameh61/Agribot/tree/main/PCB)
 
 AgriBot is a farming rover with a top speed of 1.4 km/h, and this is the one board that runs all of it: three ESP32s, five buck converters, the motor driver links, a stepper that shoves a soil probe into the ground, GPS, a SIM800L and two speakers, all on 260 x 150 mm of 2 oz copper.
 
@@ -33,6 +33,10 @@ These are renders of the real board file. The boards aren't ordered yet so there
 ### 3D model
 <img width="781" height="497" alt="Screenshot 2026-10-17 233719" src="https://github.com/user-attachments/assets/126c31c9-84fc-4882-b394-3e70567d4c5c" /><img width="814" height="496" alt="Screenshot 2026-10-17 233806" src="https://github.com/user-attachments/assets/6db13a59-d79d-410f-be6b-22de05a30049" />
 
+Full assembly with every module on it (this is what `CAD/agribot-pcb.step` contains):
+
+![3D model of the full board](images/3d-model.png)
+
 
 ### PCB layout
 Red is top copper, blue is bottom. The big red areas are the 12 V pour and the bottom is almost all ground.
@@ -52,6 +56,15 @@ Motion, Sensors and Audio, left to right. Sensors is the only one with its WiFi 
 
 ### Schematic
 <img width="575" height="397" alt="Screenshot 2026-10-02 130911" src="https://github.com/user-attachments/assets/1dbabab4-0ffa-459a-90b1-e67ddb85e2f0" />
+
+![Full schematic](images/schematic.png)
+
+Full-size PDF: [`PCB/production/schematic.pdf`](PCB/production/schematic.pdf)
+
+### Wiring
+Everything that plugs into the board with a cable: batteries, the two motor drivers and their four motors, the stepper, servos, sensors, soil probe, speakers and the screen. The ESP32-CAM only gets power, it talks over WiFi.
+
+![Wiring diagram](images/wiring.png)
 
 
 ## What's on the board
@@ -98,7 +111,7 @@ Motion, Sensors and Audio, left to right. Sensors is the only one with its WiFi 
 
 ## Files
 
-- `PCB/` - KiCad 10 project (schematic, board, custom libraries) and `production/gerbers.zip`
-- `CAD/agribot-pcb.step` - 3D model of the assembled board
+- `PCB/` - KiCad 10 project (schematic, board, custom footprints, symbols and 3D models). `PCB/production/` has `gerbers.zip` (Gerbers + drill files) and `schematic.pdf`
+- `CAD/agribot-pcb.step.zip` - STEP of the assembled board with every module on it, zipped because it's 24 MB (the ESP32s, buck modules, SIM800L, DRV8825, amps, IMU and microSD are simplified block models I made, sized off the real boards)
 - `firmware/` - code for the Motion, Sensors and Audio ESP32s
-- `BOM.csv` - parts list with links and prices in USD, about $147 total. The PCB and shipping lines are estimates until I get real quotes
+- `BOM.csv` - parts list bought locally in Egypt (Makers Electronics, Micro Ohm, Free Electronics) with links, EGP and USD prices and shipping, about $141 total. The PCB and shipping lines are estimates until I get real quotes
