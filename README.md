@@ -1,6 +1,6 @@
 <img width="3000" height="1754" alt="pcb" src="https://github.com/user-attachments/assets/45e06537-4cd1-412f-9003-887d18eee7b0" /># AgriBot
 
-![AgriBot main board, front](images/pcb-front.png)
+![AgriBot main board, front]<img width="3000" height="1754" alt="pcb-front" src="https://github.com/user-attachments/assets/e4562e0f-7def-4552-8095-435f0bfabae4" />
 
 [![View PCB in KiCanvas](https://img.shields.io/badge/PCB-KiCanvas-blue)](https://kicanvas.org/?github=https://github.com/YOUR_USERNAME/AgriBot/tree/main/PCB)
 
