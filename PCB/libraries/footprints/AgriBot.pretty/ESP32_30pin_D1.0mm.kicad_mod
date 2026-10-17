@@ -786,15 +786,9 @@
 		(uuid "6812246a-7935-4752-8c5f-2c67d74f7d4a")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_3DMODELS}/ESP32-30pin.step"
-		(offset
-			(xyz 0.2 0 2.7)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
+	(model "${KIPRJMOD}/libraries/3dmodels/ESP32_DevKit_30pin.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 	)
 )
