@@ -112,6 +112,6 @@ Everything that plugs into the board with a cable: batteries, the two motor driv
 ## Files
 
 - `PCB/` - KiCad 10 project (schematic, board, custom footprints, symbols and 3D models). `PCB/production/` has `gerbers.zip` (Gerbers + drill files) and `schematic.pdf`
-- `CAD/agribot-pcb.step.zip` - STEP of the assembled board with every module on it, zipped because it's 24 MB (the ESP32s, buck modules, SIM800L, DRV8825, amps, IMU and microSD are simplified block models I made, sized off the real boards)
+- `CAD/agribot-pcb.step.zip` - STEP of the assembled board with every module on it, zipped because it's 50 MB. The module models are real ones (Espressif, KiCad library, Sector7GP, a SIM800L repo and openbikesensor), credits are in `PCB/libraries/3dmodels/CREDITS.md`
 - `firmware/` - code for the Motion, Sensors and Audio ESP32s
 - `BOM.csv` - parts list bought locally in Egypt (Makers Electronics, Micro Ohm, Free Electronics) with links, EGP and USD prices and shipping, about $141 total. The PCB and shipping lines are estimates until I get real quotes
