@@ -1022,7 +1022,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/libraries/3dmodels/MAX98357A_Module.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/MAX98357A_Module.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2620,9 +2620,31 @@
 			(uuid "08857cfd-264b-49e5-bf5b-fe835f3b32d8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/3dmodels/SIM800L_Module.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/SIM800L_Module.stpZ"
 			(offset
 				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical.step"
+			(offset
+				(xyz 21.7 -2.54 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -5166,7 +5188,7 @@
 			(uuid "f4592a21-75dd-4e08-8368-1c23fc3d0be4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/3dmodels/LM2596S_Module.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/LM2596S_Module.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6014,9 +6036,31 @@
 			(uuid "8f827343-f327-43e8-b598-7d959bbe2598")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/3dmodels/ESP32_DevKit_30pin.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/ESP32_DevKit_30pin.stpZ"
 			(offset
 				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x15_P2.54mm_Vertical.step"
+			(offset
+				(xyz -11.9275 18.5402 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x15_P2.54mm_Vertical.step"
+			(offset
+				(xyz 13.4725 18.5402 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -7177,7 +7221,7 @@
 			(uuid "055240cb-4e03-4515-a48c-6f1310cdd20d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/3dmodels/LM2596S_Module.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/LM2596S_Module.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22223,9 +22267,31 @@
 			(uuid "7a15c996-8078-41d0-ad03-b455ca52202f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/3dmodels/ESP32_DevKit_30pin.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/ESP32_DevKit_30pin.stpZ"
 			(offset
 				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x15_P2.54mm_Vertical.step"
+			(offset
+				(xyz -11.9275 18.5402 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x15_P2.54mm_Vertical.step"
+			(offset
+				(xyz 13.4725 18.5402 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -23092,9 +23158,31 @@
 			(uuid "fb017d39-3692-4950-b0b9-ac28748dc41a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/3dmodels/DRV8825_Carrier.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/DRV8825_Carrier.stpZ"
 			(offset
 				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+			(offset
+				(xyz 12.7 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -24315,7 +24403,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/libraries/3dmodels/MicroSD_Module.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/MicroSD_Module.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24630,7 +24718,7 @@
 			(uuid "4b697172-3acb-4bc1-ad39-781bf6f11581")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/3dmodels/LM2596S_Module.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/LM2596S_Module.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27823,9 +27911,31 @@
 			(uuid "6812246a-7935-4752-8c5f-2c67d74f7d4a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/3dmodels/ESP32_DevKit_30pin.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/ESP32_DevKit_30pin.stpZ"
 			(offset
 				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x15_P2.54mm_Vertical.step"
+			(offset
+				(xyz -11.9275 18.5402 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x15_P2.54mm_Vertical.step"
+			(offset
+				(xyz 13.4725 18.5402 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -28520,7 +28630,7 @@
 			(uuid "1a86e0dc-ed8c-40d8-be55-88513709396d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/3dmodels/LM2596S_Module.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/LM2596S_Module.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28855,7 +28965,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/libraries/3dmodels/MAX98357A_Module.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/MAX98357A_Module.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35994,7 +36104,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/libraries/3dmodels/GY521_MPU6050.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/GY521_MPU6050.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -44414,7 +44524,7 @@
 			(uuid "94ad7597-1764-4726-9e0d-22f429b0ea73")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/3dmodels/LM2596S_Module.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/LM2596S_Module.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
