@@ -33,7 +33,7 @@ These are renders of the real board file. The boards aren't ordered yet so there
 ### 3D model
 <img width="781" height="497" alt="Screenshot 2026-10-17 233719" src="https://github.com/user-attachments/assets/126c31c9-84fc-4882-b394-3e70567d4c5c" /><img width="814" height="496" alt="Screenshot 2026-10-17 233806" src="https://github.com/user-attachments/assets/6db13a59-d79d-410f-be6b-22de05a30049" />
 
-Full assembly with every module on it (this is what `CAD/agribot-pcb.step.zip` contains):
+Full assembly with every module on it. The STEP is in `CAD/agribot-pcb.step.zip`, zipped only because the raw .step is 54 MB and GitHub won't take files over 25 MB through the website. Unzip it and you get `agribot-pcb.step`:
 
 ![3D model of the full board](images/3d-model.png)
 
