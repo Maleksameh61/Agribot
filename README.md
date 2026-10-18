@@ -38,6 +38,11 @@ Full assembly with every module on it (this is what `CAD/agribot-pcb.step` conta
 ![3D model of the full board](images/3d-model.png)
 
 
+### The whole rover
+The board lives inside this. Laser-cut plywood body, four worm gearmotors, and the camera on its pan/tilt on the lid. Full assembly is in `CAD/agribot-rover.step`, and the editable Fusion file is `CAD/agribot-rover.f3d`.
+
+![AgriBot rover assembly](images/rover-3d.png)
+
 ### PCB layout
 Red is top copper, blue is bottom. The big red areas are the 12 V pour and the bottom is almost all ground.
 
@@ -113,5 +118,6 @@ Everything that plugs into the board with a cable: batteries, the two motor driv
 
 - `PCB/` - KiCad 10 project (schematic, board, custom footprints, symbols and 3D models). `PCB/production/` has `gerbers.zip` (Gerbers + drill files) and `schematic.pdf`
 - `CAD/agribot-pcb.step.zip` - STEP of the assembled board with every module on it, zipped because it's 24 MB (the ESP32s, buck modules, SIM800L, DRV8825, amps, IMU and microSD are simplified block models I made, sized off the real boards)
+- `CAD/agribot-rover.step` + `CAD/agribot-rover.f3d` - the full rover assembly from Fusion 360 (chassis, motors, wheels, batteries, camera pan/tilt, screen)
 - `firmware/` - code for the Motion, Sensors and Audio ESP32s
 - `BOM.csv` - parts list bought locally in Egypt (Makers Electronics, Micro Ohm, Free Electronics) with links, EGP and USD prices and shipping, about $141 total. The PCB and shipping lines are estimates until I get real quotes
