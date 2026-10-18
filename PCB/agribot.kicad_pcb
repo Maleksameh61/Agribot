@@ -22701,7 +22701,7 @@
 			(uuid "0e0adcc9-f1fb-466f-be99-911188378043")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Clip-5x20mm_Littelfuse_100_Inline_P20.50x4.60mm_D1.30mm_Horizontal.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/Fuse_5x20_Littelfuse100_P20.50x4.60.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29821,7 +29821,7 @@
 			(uuid "3d40fd2f-e12f-4b01-86f4-52c6b65e5bba")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type175_RT02702HBLC_1x02_P7.50mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/KF128-7.5-2P.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35758,7 +35758,7 @@
 			(uuid "0dcf4f80-9a3d-40e3-ae52-ccde0e557c9f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Clip-5x20mm_Littelfuse_111_Inline_P20.00x5.00mm_D1.05mm_Horizontal.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/Fuse_5x20_Littelfuse_P20.00x5.00.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41383,7 +41383,7 @@
 			(uuid "7fc45266-d087-4dd3-8bef-f769926fa7b3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Clip-5x20mm_Littelfuse_100_Inline_P20.50x4.60mm_D1.30mm_Horizontal.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/Fuse_5x20_Littelfuse100_P20.50x4.60.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -44971,7 +44971,7 @@
 			(uuid "e8aa0307-acfa-4d28-a6ad-aae645894ed3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type175_RT02702HBLC_1x02_P7.50mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/KF128-7.5-2P.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
