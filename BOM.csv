@@ -25,7 +25,7 @@ Item,Part,Qty,Shop (Egypt),Product name,Unit (EGP),Total (EGP),Unit (USD),Total 
 24,JST XH 5-pin pre-wired lead,3,Micro Ohm,JST XH 5 Pin single-end female 20cm,8.5,25.5,0.161,0.48,https://microohm-eg.com/product/jst-xh-2-54-5-pin-connector-set-wire/,Stock unclear
 25,Female header strip 1x40,6,Makers Electronics,Pin Headers Female 2.54mm 40-Pin,5.0,30.0,0.095,0.57,https://makerselectronics.com/product/pin-headers-female-2-54mm-40-pin/,"For ESP32s, amps, DRV8825, SIM800L, IMU, microSD, spares"
 26,Male header strip 1x40,1,Makers Electronics,Pin Headers Male 2.54mm 40-Pin,3.0,3.0,0.057,0.06,https://makerselectronics.com/product/pin-headers-male-2-54mm-40-pin-strai/,Gain jumpers + servo headers
-27,Jumper caps,2,Makers Electronics,Jumper Shunt 2 Pin 2.54mm (5 pcs),0.0,0.0,0.0,0.0,https://makerselectronics.com/product/jumper-shunt-2-pin-2-54mm-5-pcs/,"Price not found, a few EGP"
+27,Jumper caps,2,Makers Electronics,Jumper Shunt 2 Pin 2.54mm (5 pcs),5.0,10.0,0.095,0.19,https://makerselectronics.com/product/jumper-shunt-2-pin-2-54mm-5-pcs/,"ESTIMATE, price not listed online (a few EGP per pack of 5)"
 28,LED 5mm,5,Free Electronics,LED Red Color (5mm),0.5,2.5,0.009,0.05,https://free-electronic.com/product/led-red-color-5mm/,One per power rail
 29,"Resistors 1/4W (220 x5, 1k x3, 2k x2, 3.3k, 4.7k x2, 10k x5, 22k x2, 100k x2)",22,Free Electronics,Resistor 1/4W,0.2,4.4,0.004,0.08,https://free-electronic.com/product/resistor-100-kohm-1-4w/,Per piece
 30,Ceramic capacitor 100nF 50V,18,Free Electronics,"Ceramic Capacitor (100nF, 50V) (104)",0.5,9.0,0.009,0.17,https://free-electronic.com/product/ceramic-capacitor-100nf-50v-104/,
@@ -39,4 +39,4 @@ Item,Part,Qty,Shop (Egypt),Product name,Unit (EGP),Total (EGP),Unit (USD),Total 
 38,Shipping: Makers Electronics delivery,1,Makers Electronics,,0,0,0.0,0.0,https://makerselectronics.com/,"Free above 1000 EGP, this order is above that"
 39,Shipping: Micro Ohm delivery (Cairo),1,Micro Ohm,,100,100,1.89,1.89,https://microohm-eg.com/,"ESTIMATE, confirm at checkout"
 40,Shipping: Free Electronics,1,Free Electronics,,50,50,0.95,0.95,https://free-electronic.com/,"ESTIMATE, or pick up"
-TOTAL,,,,,,,,140.52,,"USD at 52.8 EGP (NBE sell rate, Oct 13 2026). Off-board parts (MDD10A drivers, motors, batteries, speakers, ESP32-CAM, CYD screen) not included"
+TOTAL,,,,,,,,140.71,,"USD at 52.8 EGP (NBE sell rate, Oct 13 2026). Off-board parts (MDD10A drivers, motors, batteries, speakers, ESP32-CAM, CYD screen) not included"
