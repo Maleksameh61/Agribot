@@ -1,13 +1,15 @@
 # KiCad temporary and per-user files
 *-backups/
-.history/
 *.kicad_prl
 *.lck
+~*.lck
 fp-info-cache
 *.bak
+*.backup*
 _autosave-*
 \#auto_saved_files#
 # OS
 .DS_Store
 Thumbs.db
 desktop.ini
+.history/
