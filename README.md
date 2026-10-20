@@ -8,7 +8,7 @@ AgriBot is a farming rover with a top speed of 1.4 km/h, and this is the one boa
 
 ## How it's used
 
-Your phone joins the WiFi network that the Sensors ESP32 puts up, then sends throttle and steering about 20 times a second over UDP. Sensors passes that down a UART to the Motion ESP32, and Motion mixes it into left and right wheel speeds for the two Cytron MDD10A motor drivers. The drivers live off the board. They get their signals over a JST cable and their 12 V from the two screw terminals marked M1_PWR and M2_PWR.
+Your phone joins the WiFi network that the Sensors ESP32 puts up, then sends throttle and steering about 20 times a second. Sensors passes that down a UART to the Motion ESP32, and Motion mixes it into left and right wheel speeds for the two Cytron MDD10A motor drivers. The drivers live off the board. They get their signals over a JST cable and their 12 V from the two screw terminals marked M1_PWR and M2_PWR.
 
 If Motion goes 150 ms without a packet, it stops the motors. That's the whole safety system. I skipped a real e-stop because you can walk faster than this thing, and pulling an XT60 turns everything off.
 
@@ -16,15 +16,11 @@ Video comes from an ESP32-CAM that isn't on this board. It joins the same WiFi a
 
 When you stop somewhere you want to test, a NEMA 17 on a rack and pinion pushes the RS485 soil probe into the ground and Sensors reads it. Sensors also reads temperature, humidity, pressure, light, GPS and an IMU, and sends data to a separate 2.8" touchscreen (the Cheap Yellow Display) over a 4-pin cable. The Audio ESP32 plays sounds off a microSD through two speakers and runs the SIM800L, so the rover can still text me when it's out of WiFi range.
 
-Where it's at right now: the firmware folder is pin maps plus startup code that puts every pin in a safe state. The real driving code gets written when the boards show up.
-
 ## Why I made it
 
-I took AgriBot to RobotChallenge in Beijing this August and came 4th in FreeStyle Senior. Back then it was an autonomous competition robot. Once that was done I wanted something dumber and way more fun: drive it around from my phone like an RC car, with a camera feed.
+I took AgriBot to RobotChallenge in Beijing this August and came 4th in FreeStyle Senior.
 
 The plan before this was three separate boards (Motion, Sensors, Audio) talking to each other over ESP-NOW. I wanted the chips wired together instead of over radio, so everything went onto one board. It still needs three ESP32s though. I counted around 39 GPIOs for everything on here and one DevKit gives you about 24 usable ones, so the three chips are linked over UART with Sensors in the middle.
-
-The weirdest call on the board is that the SIM800L hangs off the Audio ESP32 and not Sensors, where it obviously belongs. Each ESP32 only has two free hardware UARTs (the third one is the USB port), and Sensors already spends both of them on Motion and Audio. Audio was using 10 pins and doing nothing most of the time, so it got the modem. The other option was software serial, and no.
 
 ## Pictures
 
