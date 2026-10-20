@@ -55,7 +55,6 @@ Motion, Sensors and Audio, left to right. Sensors is the only one with its WiFi 
 
 
 ### Schematic
-<img width="575" height="397" alt="Screenshot 2026-10-02 130911" src="https://github.com/user-attachments/assets/1dbabab4-0ffa-459a-90b1-e67ddb85e2f0" />
 
 ![Full schematic](images/schematic.png)
 
