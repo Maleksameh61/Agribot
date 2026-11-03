@@ -20,7 +20,7 @@ Sensors also reads temperature, humidity, pressure, light and an MPU6050, and sh
 
 ## Why I made it
 
-Salty soil is the big problem on small farms in Egypt, and checking a field means walking it with a probe or sending samples to a lab. I wanted a rover to do the walking. I also wanted every part to come from shops in Cairo, and the whole board, PCB and shipping included, comes to about $141.
+Salty soil is the big problem on small farms in Egypt, and checking a field means walking it with a probe or sending samples to a lab. I wanted a rover to do the walking. I also wanted every part to come from shops in Cairo. The board and everything that plugs into it, with the JLC order and shipping, comes to about $167. The whole rover is more like $560, and most of that is the four gearmotors (1,200 EGP each at Makers) and the soil probe (3,750 EGP). I didn't see that coming when I picked them.
 
 I took AgriBot to RobotChallenge in Beijing this August and came 4th in FreeStyle Senior. After that I redid the electronics. The plan was three separate boards (Motion, Sensors, Audio) talking over ESP-NOW, and I didn't like the chip that drives the motors depending on radio, so now it's one board with the three ESP32s wired together over UART and Sensors in the middle. Before you ask why there are still three: I counted about 39 GPIOs for everything on here, and a DevKit gives you about 24 you can actually use.
 
@@ -48,7 +48,7 @@ Motion, Sensors and Audio, left to right. Sensors is the only one with its WiFi 
 
 ![Full schematic](images/schematic.png)
 
-Full-size PDF: [`PCB/production/schematic.pdf`](PCB/production/schematic.pdf)
+Full-size PDF: [`production/schematic.pdf`](production/schematic.pdf)
 
 ### Wiring
 Every cable that leaves the board. The numbers on the board map match the plug names underneath. Wire colours are only suggestions, so go by pin number (pin 1 is the marked end of each plug).
@@ -105,7 +105,8 @@ A lot of this board is educated guesses, and one guess already nearly went wrong
 
 ## Files
 
-- `PCB/` - KiCad 10 project (schematic, board, custom footprints, symbols and 3D models). `PCB/production/` has `gerbers.zip` (Gerbers + drill files) and `schematic.pdf`
-- `CAD/agribot-pcb.step.zip` - STEP of the assembled board with every module on it, zipped because the raw file is 54 MB and the GitHub website won't take files over 25 MB. The module models are real ones (Espressif, KiCad library, Sector7GP, a SIM800L repo, openbikesensor, and the JLCEDA/EasyEDA Official Library for the fuses and the KF128 terminals), credits are in `PCB/libraries/3dmodels/CREDITS.md`
+- `production/` - what you send off to get one made: `gerbers.zip` (Gerbers + drill files), `schematic.pdf` and a copy of the firmware
+- `PCB/` - KiCad 10 project (`agribot.kicad_sch`, `agribot.kicad_pcb`, `agribot.kicad_pro`, custom footprints, symbols and 3D models)
+- `CAD/agribot-pcb.step` - STEP of the assembled board with every module on it. It's 54 MB, which the GitHub website won't take, so I pushed it with git instead. The module models are real ones (Espressif, KiCad library, Sector7GP, a SIM800L repo, openbikesensor, and the JLCEDA/EasyEDA Official Library for the fuses and the KF128 terminals), credits are in `PCB/libraries/3dmodels/CREDITS.md`
 - `firmware/` - code for the Motion, Sensors and Audio ESP32s
-- `BOM.csv` - parts list bought locally in Egypt (Makers Electronics, Micro Ohm, Free Electronics) with links, USD and EGP prices and shipping, about $141 total. The PCB and shipping lines are estimates until I get real quotes
+- `BOM.csv` - the bare board: everything on the PCB or plugged into it, from Makers Electronics, Micro Ohm and Free Electronics, with links, USD and EGP prices, shipping, and the JLC quote I got on Nov 3 ($68.80 for 5 boards in 2 oz copper). About $167. The drivers, motors, batteries, probe and chassis aren't in it, since they're not part of the board
