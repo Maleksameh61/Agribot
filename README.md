@@ -1,5 +1,7 @@
 # The AgriBot rover
 
+![AgriBot rover, full assembly in Fusion](images/rover.png)
+
 ![AgriBot board, 3D render](images/3d-model.png)
 
 [![View PCB in KiCanvas](https://img.shields.io/badge/PCB-KiCanvas-blue)](https://kicanvas.org/?github=https://github.com/Maleksameh61/Agribot/tree/main/PCB)
@@ -110,5 +112,5 @@ A lot of this board is educated guesses, and one guess already nearly went wrong
 - `CAD/agribot-pcb.step` - STEP of the assembled board with every module on it. It's 54 MB, which the GitHub website won't take, so I pushed it with git instead. The module models are real ones (Espressif, KiCad library, Sector7GP, a SIM800L repo, openbikesensor, and the JLCEDA/EasyEDA Official Library for the fuses and the KF128 terminals), credits are in `PCB/libraries/3dmodels/CREDITS.md`
 - `CAD/agribot-full-assembly.step` - the whole rover exported from my Fusion file (agribot v15): the plywood chassis with everything mounted on it, including the CYD. 32 MB, so this one went up with git too. Open it if you want to see how it all fits before cutting any wood
 - `firmware/` - code for all 5 chips: the Motion, Sensors and Audio ESP32s, the CYD and the ESP32-CAM. How to flash and test it is in `firmware/README.md`
-- `BOM/AgriBot_PCB_Cost.csv` - the bare board: everything on the PCB or plugged into it, from Makers Electronics, Micro Ohm and Free Electronics, with links, USD and EGP prices, shipping, and the JLC quote I got on Nov 3 ($68.80 for 5 boards in 2 oz copper). About $167. The drivers, motors, batteries, probe and chassis aren't in it, since they're not part of the board
+- `BOM.csv` - the bare board: everything on the PCB or plugged into it, from Makers Electronics, Micro Ohm and Free Electronics, with links, USD and EGP prices, shipping, and the JLC quote I got on Nov 3 ($68.80 for 5 boards in 2 oz copper). About $167. The drivers, motors, batteries, probe and chassis aren't in it, since they're not part of the board
 - `BOM/AgriBot_Entire_Project_Cost.xlsx` - the whole rover, board plus everything else (motors, drivers, batteries, probe, CYD, camera, chassis, screws). The totals work themselves out, and if you change the EGP rate at the top all the USD numbers change with it
