@@ -14,7 +14,7 @@ They talk to each other through `common/agrilink.h`. The Arduino IDE won't inclu
 
 Everything compiles on ESP32 core 3.0.7 and it needs 3.x, because the audio uses the new I2S driver. None of it has run on the real board yet, since the boards aren't made.
 
-I used AI to help write parts of this firmware.
+I used AI to help write parts of this firmware as i t was so big and there are lots of arctechtuers so there are some parts in the code that needed ai to review and debug.
 
 ## What you need
 
