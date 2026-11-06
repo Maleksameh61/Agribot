@@ -107,6 +107,14 @@ A lot of this board is educated guesses, and one guess already nearly went wrong
 - The camera power terminal has ground on pin 1, the opposite of the other power terminals. It's marked − / + on the board, so look before you screw the wires in.
 - Put some kapton tape under each buck module. They sit flat on the board and their bottom pins can scratch through the solder mask.
 
+## AI declaration
+
+Short version: the board is mine, and AI helped me check it.
+
+I drew the schematic, picked every part, and did the placement and routing myself. I used AI kind of like a second pair of eyes. It helped me clear DRC errors and catch problems I missed, and it told me about parts I'd forgotten, mostly passives like decoupling caps, dividers and pull-ups. It also helped me plan which ESP32 pin goes where and what track width to use on the power paths. Some of the custom KiCad symbols and footprints were made by AI, and I checked those against the real modules before using them.
+
+The firmware is where I needed AI the most. It's big, and there were errors I couldn't fix on my own, so AI helped write and debug parts of it, usually one small section at a time. I worked on it for weeks, but you'll only see one commit, because I pushed the wrong versions before and had to upload it all again. There are a lot of comments in the code. I know that can look like AI, but I put them there so you can follow what each part does.
+
 ## Files
 
 - `production/` - what you send off to get one made: `gerbers.zip` (Gerbers + drill files), `schematic.pdf` and a copy of the firmware
