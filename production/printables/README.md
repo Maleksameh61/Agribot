@@ -1,30 +1,20 @@
-# Printables (STEP)
+# Printables
 
-3D-printed parts for AgriBot, ready to slice. All files are STEP, in mm.
+Everything here is STEP. Open it in Fusion or drop it straight into your slicer.
 
-## Motor mounts (print 4)
+## Motor mounts
 
-| File | What it is |
-|---|---|
-| `motor-mount-1.step` … `motor-mount-4.step` | Mounts the four 5840-31ZY worm gearmotors sit on (96.2 × 100 × 17.1 mm each) |
+`motor-mount-1.step` to `motor-mount-4.step` are the plates the four worm gearmotors sit on. They're the same part, so you can just print one file four times. They come straight out of my Fusion file (Body101 to Body104).
 
-Exported from the AgriBot Fusion 360 model (bodies Body101–Body104).
+## Camera pan/tilt
 
-## Camera pan/tilt (ESP32-CAM + 2× MG90S)
+I didn't design this one. It's werz 99's [ESP32 Cam Pan and Tilt Camera](https://www.printables.com/model/148269) from Printables, which is itself a remix of Electronlibre's MG90S tilt/yaw mount on Thingiverse. It fits the ESP32-CAM and two MG90S servos, which is exactly what AgriBot uses, so I didn't see a reason to redraw it.
 
-| File | What it is | Size (mm) |
-|---|---|---|
-| `pan-tilt-yaw-base.step` | Pan (yaw) base, holds the pan servo | 71.2 × 65.8 × 28.2 |
-| `pan-tilt-tilt-plate.step` | Tilt plate | 52.4 × 52.4 × 31.9 |
-| `pan-tilt-cam-case-with-tilt-support.step` | ESP32-CAM case with tilt support | — |
-| `pan-tilt-cam-back-cover.step` | ESP32-CAM back cover | 31.1 × 44.0 × 3.5 |
+- `pan-tilt-yaw-base.step`: the base, holds the pan servo
+- `pan-tilt-tilt-plate.step`: the tilt plate
+- `pan-tilt-cam-case-with-tilt-support.step`: the camera case with the tilt arm
+- `pan-tilt-cam-back-cover.step`: the back cover
 
-Original print settings: 0.3 mm layers, 0.4 mm nozzle, PETG, about 3.25 h and 55 g total.
+The original settings were PETG at 0.3 mm layers, about 3 h 15 min and 55 g for all four. I converted the STLs to STEP, so they're made of triangles, not clean CAD faces. They print the same, but don't expect to edit them nicely.
 
-These were converted from the original STLs, so they're faceted solids (triangle faces) and not
-parametric CAD. They print exactly like the STLs.
-
-**Credit / license:** "ESP32 Cam Pan and Tilt Camera" by werz 99 on Printables
-(https://www.printables.com/model/148269), based on "Camera mount MG90s Tilt and Yaw (Arduino ESP32-Cam)"
-by Electronlibre on Thingiverse. Licensed under CC BY-NC-SA 4.0. These pan/tilt files keep that license
-(non-commercial, share-alike, with attribution), whatever license covers the rest of this repo.
+These four keep the original license, CC BY-NC-SA 4.0, so no selling them, and credit werz 99 if you share them.
