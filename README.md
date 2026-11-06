@@ -6,7 +6,7 @@
 
 [![View PCB in KiCanvas](https://img.shields.io/badge/PCB-KiCanvas-blue)](https://kicanvas.org/?github=https://github.com/Maleksameh61/Agribot/tree/main/PCB)
 
-> **Stardance reviewers:** the part I'm submitting is the PCB: the `PCB/` folder, plus `gerbers.zip`, `schematic.pdf` and the `printables/` folder in `production/`. The firmware isn't part of it, even the copy in `production/firmware/`. I started AgriBot before I'd even heard of Hack Club, so the chassis, motors, firmware and the rest were already underway. They're here so you can see what the board plugs into, but please review the board on its own.
+> **Stardance reviewers:** the part I'm submitting is the PCB, which is everything in `PCB/` and `production/`. I started AgriBot before I'd even heard of Hack Club, so the chassis, motors and the rest were already underway. They're here so you can see what the board plugs into, but please review the board on its own.
 
 AgriBot tops out at 1.4 km/h, so you can outwalk it, and that's fine, because its job is to drive to a GPS point, stop, push a soil probe into the ground and read moisture, temperature, pH, salinity (EC) and NPK, then go do it again somewhere else.
 
