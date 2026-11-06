@@ -110,7 +110,7 @@ A lot of this board is educated guesses, and one guess already nearly went wrong
 ## Files
 
 - `production/` - what you send off to get one made: `gerbers.zip` (Gerbers + drill files), `schematic.pdf` and a copy of the firmware
-- `production/printables/` - STEP files for the 3D-printed parts: the four motor mounts (mine) and the ESP32-CAM pan/tilt, which isn't mine. That one is werz 99's [ESP32 Cam Pan and Tilt Camera](https://www.printables.com/model/148269) on Printables, a remix of Electronlibre's MG90S tilt/yaw mount on Thingiverse, licensed CC BY-NC-SA 4.0
+- `production/printables/` - STEP files for the 3D-printed parts: the four motor mounts and the ESP32-CAM pan/tilt
 - `PCB/` - KiCad 10 project (`agribot.kicad_sch`, `agribot.kicad_pcb`, `agribot.kicad_pro`, custom footprints, symbols and 3D models)
 - `CAD/agribot-pcb.step` - STEP of the assembled board with every module on it. It's 54 MB, which the GitHub website won't take, so I pushed it with git instead. The module models are real ones (Espressif, KiCad library, Sector7GP, a SIM800L repo, openbikesensor, and the JLCEDA/EasyEDA Official Library for the fuses and the KF128 terminals), credits are in `PCB/libraries/3dmodels/CREDITS.md`
 - `CAD/agribot-full-assembly.step` - the whole rover exported from my Fusion file (agribot v15): the plywood chassis with everything mounted on it, including the CYD. 32 MB, so this one went up with git too. Open it if you want to see how it all fits before cutting any wood
