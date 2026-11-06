@@ -6,6 +6,8 @@
 
 [![View PCB in KiCanvas](https://img.shields.io/badge/PCB-KiCanvas-blue)](https://kicanvas.org/?github=https://github.com/Maleksameh61/Agribot/tree/main/PCB)
 
+> **Stardance reviewers:** the part I'm submitting is the PCB, which is everything in `PCB/` and `production/`. I started AgriBot before I'd even heard of Hack Club, so the chassis, motors, firmware and the rest were already underway. They're here so you can see what the board plugs into, but please review the board on its own.
+
 AgriBot tops out at 1.4 km/h, so you can outwalk it, and that's fine, because its job is to drive to a GPS point, stop, push a soil probe into the ground and read moisture, temperature, pH, salinity (EC) and NPK, then go do it again somewhere else.
 
 This repo is the board that runs all of that: three ESP32s, five buck converters, the motor driver links, the stepper for the probe, GPS, a SIM800L and two speakers, on 260 x 150 mm of 2 oz copper.
