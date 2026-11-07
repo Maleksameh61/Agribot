@@ -95,8 +95,7 @@ A lot of this board is educated guesses, and one guess already nearly went wrong
 
 - The probe is the part I'm least sure about. A NEMA 17 on a rack and pinion pushes maybe 20 to 50 N, and the rover can't push down harder than it weighs anyway. Soft or tilled soil should be fine. Dry, packed clay, I don't know yet.
 - The 5 A fuse covers every buck plus the stepper. My estimate is around 4 A worst case from 12 V, and I haven't measured anything.
-- The 5 A stall current per motor is a guess too, and the 20 A fuses are sized off that guess.
-- Before I order I still need calipers on the ESP32 row gap (the board assumes 25.4 mm, some 30-pin clones are 22.86 mm), the fuse clip pins, and the pin order on my microSD module.
+
 
 ## If you build one
 
